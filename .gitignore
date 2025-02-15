@@ -1,0 +1,8 @@
+# folders
+.venv/
+__pycache__/
+migrations/
+webring/
+
+# files
+.env
