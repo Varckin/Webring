@@ -6,3 +6,4 @@ webring/
 
 # files
 .env
+*.sqlite3
