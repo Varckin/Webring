@@ -3,6 +3,7 @@
 __pycache__/
 migrations/
 webring/
+tmp/
 
 # files
 .env
