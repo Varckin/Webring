@@ -6,6 +6,8 @@ services:
       - ./db.sqlite3:/app/db.sqlite3
       - ./media:/app/media
       - ./tmp:/app/tmp
+    env_file:
+      - .env
     ports:
       - "8000:8000"
     restart: unless-stopped
