@@ -1,0 +1,11 @@
+services:
+  webring:
+    build: .
+    command: gunicorn --bind 0.0.0.0:8000 webring.wsgi:application
+    volumes:
+      - ./db.sqlite3:/app/db.sqlite3
+      - ./media:/app/media
+      - ./tmp:/app/tmp
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

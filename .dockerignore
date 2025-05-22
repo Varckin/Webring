@@ -1,9 +1,7 @@
-# folders
 .venv/
 __pycache__/
 migrations/
 tmp/
 
-# files
 .env
 *.sqlite3
